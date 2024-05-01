@@ -5,6 +5,20 @@
 */
 
 .page.theme_light {
+  --main-font: IBM Plex Mono;
+  --accemt-font: "IBM Plex mono";
+  --bg-color: #FFF1F7;
+  --text-color: #353430;
+  --title-color: #353430;
+  --subtitle-color: #353430;
+  --header-title-color: #FFC2E6;
+  --header-title-accent-color: #FF0070;
+  --accent-color: #FF8DCB;
+  --corners-color: #353430;
+  --header-image: url(../images/cover-image-light.png);
+  --decor-color: #FFF1F7;
+  --button-border: 1px solid hsla(48, 5%, 19%, 0.4);
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
