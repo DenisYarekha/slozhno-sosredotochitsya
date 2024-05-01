@@ -2,19 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root{
+:root {
   --main-font: IBM Plex Mono;
   --accent-font: "IBM Plex mono";
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
   --title-color: #353430;
   --subtitle-color: #353430;
-  --header-title-color: #FFC2E6;
-  --header-title-accent-color: #FF0070;
-  --accent-color: #FF8DCB;
+  --header-title-color: #ffc2e6;
+  --header-title-accent-color: #ff0070;
+  --accent-color: #ff8dcb;
   --corners-color: #353430;
   --header-image: url(../images/cover-image-light.png);
-  --decor-color: #FFF1F7;
+  --decor-color: #fff1f7;
   --button-border: 1px solid hsla(48, 5%, 19%, 0.4);
-
 }
