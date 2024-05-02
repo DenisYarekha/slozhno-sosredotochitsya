@@ -16,6 +16,7 @@
   --corners-color: #ff0070;
   --decor-color: #ff0070;
   --button-border: 1px solid hsla(334, 100%, 50%, 0.4);
+  --button-border-active: 1px solid hsla(334, 100%, 50%);
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -36,5 +37,6 @@
     --corners-color: #ff0070;
     --decor-color: #ff0070;
     --button-border: 1px solid hsla(334, 100%, 50%, 0.4);
+    --button-border-active: 1px solid hsla(334, 100%, 50%);
   }
 }

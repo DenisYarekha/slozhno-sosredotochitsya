@@ -16,4 +16,5 @@
   --header-image: url(../images/cover-image-light.png);
   --decor-color: #fff1f7;
   --button-border: 1px solid hsla(48, 5%, 19%, 0.4);
+  --button-border-active: 1px solid hsla(48, 5%, 19%);
 }
