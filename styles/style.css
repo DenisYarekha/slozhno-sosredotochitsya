@@ -7,10 +7,11 @@
 }
 
 .decorated__title {
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  line-height: clamp(6.1875rem, 0.4631rem + 11.9258vw, 8.095625rem);
   font-family: var(--main-font, sans-serif);
   color: var(--header-title-color);
   font-weight: 700;
-  line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--header-title-accent-color);
   grid-column: 1/8;
   grid-row: 3/4;
@@ -399,12 +400,6 @@
     min-height: 668px;
   }
 
-  .decorated__title {
-    font-size: 116px;
-    font-weight: 700;
-    line-height: 95.7px;
-  }
-
   .footer {
     display: grid;
     grid-template-rows: 10px 276px min-content 276px 10px;
@@ -453,12 +448,5 @@
 
   .rec {
     inset: 10px 38px auto auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .decorated__title {
-    font-size: 157px;
-    line-height: 132.9px;
   }
 }
