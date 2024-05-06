@@ -334,7 +334,6 @@
   }
   .decorated-zone {
     grid-template-rows: 20px 441.6px min-content 441.6px 20px;
-    
   }
   .title_block {
     max-inline-size: 236px;
@@ -404,7 +403,7 @@
     display: grid;
     grid-template-rows: 10px 276px min-content 276px 10px;
     grid-template-columns: 1fr;
-    min-height: 100vh;;
+    min-height: 100vh;
   }
 
   .header {
