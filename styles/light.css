@@ -15,7 +15,7 @@
   --header-title-accent-color: #ff0070;
   --accent-color: #ff8dcb;
   --corners-color: #353430;
-  --header-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --decor-color: #fff1f7;
   --button-border: 1px solid hsla(48, 5%, 19%, 0.4);
   --button-border-active: 1px solid hsla(48, 5%, 19%);
@@ -38,7 +38,7 @@
     --header-title-accent-color: #ff0070;
     --accent-color: #ff8dcb;
     --corners-color: #353430;
-    --header-image: url(../images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
     --decor-color: #fff1f7;
     --button-border: 1px solid hsla(48, 5%, 19%, 0.4);
     --button-border-active: 1px solid hsla(48, 5%, 19%);
