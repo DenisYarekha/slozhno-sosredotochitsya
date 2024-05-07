@@ -399,6 +399,11 @@
     min-height: 668px;
   }
 
+  .decorated__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    line-height: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
+  }
+
   .footer {
     display: grid;
     grid-template-rows: 10px 276px min-content 276px 10px;
