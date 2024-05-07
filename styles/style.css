@@ -317,6 +317,10 @@
   color: var(--decor-color);
 }
 
+.footer {
+  min-height: 100vh;
+}
+
 @media (max-width: 768px) {
   .content__text__block {
     display: flex;
@@ -396,19 +400,11 @@
     padding-inline: 10px;
     grid-template-rows: 10px 226.6px min-content 226.6px 10px;
     grid-template-columns: 1fr;
-    min-height: 668px;
   }
 
   .decorated__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
-  }
-
-  .footer {
-    display: grid;
-    grid-template-rows: 10px 276px min-content 276px 10px;
-    grid-template-columns: 1fr;
-    min-height: 100vh;
   }
 
   .header {
